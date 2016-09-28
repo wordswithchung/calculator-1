@@ -8,7 +8,8 @@ def multiply(num1, num2):
     return num1 * num2
 
 def divide(num1, num2):
-    return num1 / num2
+    answer = float(num1) / float(num2)
+    return answer
 
 def square(num1):
     return num1 ** 2
